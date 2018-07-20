@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.itemDeleteAll:
                 editTextFar.getText().clear();
                 editTextCel.getText().clear();
-                //TODO : effacement des éléments de la liste
                 stringList.clear();
                 adapter.notifyDataSetChanged();
                 break;
